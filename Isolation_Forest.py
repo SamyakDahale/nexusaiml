@@ -17,7 +17,7 @@ df['Anomaly'] = model.fit_predict(X)
 # In Isolation Forest, -1 means anomaly, and 1 means normal
 df['Anomaly_Label'] = df['Anomaly'].apply(lambda x: 'Anomaly' if x == -1 else 'Normal')
 
-# Step 4: Visualize the anomalies use a 2D plot (PCA)
+#  Visualize the anomalies ; use a 2D plot (PCA)
 from sklearn.decomposition import PCA
 pca = PCA(n_components=2)
 X_pca = pca.fit_transform(X)
