@@ -11,3 +11,5 @@ Invoice	StockCode	Description	Quantity	InvoiceDate	Price	Customer ID	Country
 
 If using other dataset, change name of excel accordingly 
 
+link to access the dataset 
+https://drive.google.com/drive/folders/1lC50sydqK2tWSpD802LBhH4znLJrbSJu?usp=drive_link
